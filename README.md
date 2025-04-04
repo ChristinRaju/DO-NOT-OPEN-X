@@ -13,8 +13,6 @@ while True:
 2. Destructive System Commands
 File deletion or system corruption: A simple script that can wipe out critical files, like the one you shared earlier (os.remove("C:\\Windows\\System32")), is extremely dangerous. It could render an operating system unusable.
 
-Example:
-
 import os
 os.remove("C:\\Windows\\System32")
 
