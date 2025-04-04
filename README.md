@@ -1,4 +1,4 @@
-# DO-NOT-OPEN-X
+# warning
 
 1. Worms and Viruses
 Self-replicating code: Worms and viruses are programs that spread by exploiting vulnerabilities in the system or network. A worm, for example, can propagate across networks and infect machines without requiring any user interaction.
