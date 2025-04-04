@@ -4,9 +4,10 @@
 Self-replicating code: Worms and viruses are programs that spread by exploiting vulnerabilities in the system or network. A worm, for example, can propagate across networks and infect machines without requiring any user interaction.
 
 Example: Code that continuously replicates itself and spreads through email, file sharing, or even remote vulnerabilities.
+```
 import os
 import random
-```
+
 while True:
     os.system('send_email_with_attachment_to_all_contacts()')
 ```
