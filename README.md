@@ -6,25 +6,26 @@ Self-replicating code: Worms and viruses are programs that spread by exploiting 
 Example: Code that continuously replicates itself and spreads through email, file sharing, or even remote vulnerabilities.
 import os
 import random
-
+```
 while True:
     os.system('send_email_with_attachment_to_all_contacts()')
+```
     
 2. Destructive System Commands
 File deletion or system corruption: A simple script that can wipe out critical files, like the one you shared earlier (os.remove("C:\\Windows\\System32")), is extremely dangerous. It could render an operating system unusable.
-
+```
 import os
 os.remove("C:\\Windows\\System32")
-
-3. Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS)
+```
+4. Denial-of-Service (DoS) and Distributed Denial-of-Service (DDoS)
 Overloading a server: Code that floods a server with excessive traffic, causing it to crash or become unresponsive. A DDoS attack uses many computers (often without their owners’ knowledge) to carry out the attack.
 
 Example: A simple DoS attack in Python might use requests to send excessive traffic to a website:
-
+```
 import requests
 while True:
     requests.get('http://victim-website.com')
-    
+ ```   
 4. Malicious Payloads
 Ransomware: This type of malware encrypts the user's data and demands a ransom to decrypt it. Ransomware often spreads via malicious links, emails, or software vulnerabilities.
 
